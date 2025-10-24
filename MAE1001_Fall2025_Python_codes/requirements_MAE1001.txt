@@ -1,0 +1,7 @@
+# requirements_MAE1001.txt
+# Libraries for Dice Roll Dash app
+
+dash  # Web framework for Dice Roll app interface
+plotly  # Creates interactive histograms for Dice Roll app
+pandas  # Handles data tables and CSV files for Dice Roll app
+numpy  # Numerical library needed by pandas
