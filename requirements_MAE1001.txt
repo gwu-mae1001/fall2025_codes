@@ -1,4 +1,4 @@
-# requirements_MAE1001.txt
+# Requirements File
 # Libraries for Dice Roll Dash app
 
 dash  # Web framework for Dice Roll app interface
