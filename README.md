@@ -13,7 +13,7 @@
 
 6.Once you have opened the python file, you can run each code block using Shift + Enter
 
-#Files in the Folder
+# Files in the Folder
 email_sender.py
 
 A script that reads the top scorer data from snake_scores.csv and emails it to the user. It formats the top 5 scores, attaches the CSV file, and sends everything through Gmail.
