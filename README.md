@@ -18,29 +18,32 @@
 
 A script that reads the top scorer data from snake_scores.csv and emails it to the user. It formats the top 5 scores, attaches the CSV file, and sends everything through Gmail.
 
-haarcascade_frontalface_default.xml
+## haarcascade_frontalface_default.xml
 
 A pretrained OpenCV Haar Cascade model used for detecting human faces in images or video. This file is required by the face-detection script.
 
-picamera2_capture_still_test_2.py
+## picamera2_capture_still_test_2.py
 
 Captures a single still photo from the Raspberry Pi camera. Shows a live preview and a 5-second countdown before saving the image.
 
-picamera2_imageEncryption.py
+## picamera2_imageEncryption.py
 
 Captures two images with the Raspberry Pi camera, converts them to grayscale, and demonstrates image encryption and decryption using a pixel-wise Caesar-cipher-style method with a key image.
 
-picamera2_opencv_faceDetect.py
+## picamera2_opencv_faceDetect.py
 
 Uses the Raspberry Pi camera and OpenCV’s Haar Cascade model to perform real-time face detection. Draws bounding boxes on detected faces in the live video feed.
 
-SenseHat_Main_Modified.py
+## SenseHat_Main_Modified.py
+
 Shows letters and pictures on the LED screen. Collects temperature, pressure, and humidity. Saves data to a file and draws simple graphs.
 
-picamera2_opencv_videoFilters.py
+## picamera2_opencv_videoFilters.py
+
 Uses the camera to show live video. Applies 5 fun filters (like edge detection) on the screen.
 
-snake_game.py
+## snake_game.py
+
 Play Snake! Use the joystick to move, eat food to grow, and see your score on the LED display. Scores are saved automatically.
  
 
