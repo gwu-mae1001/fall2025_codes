@@ -13,8 +13,8 @@
 
 6.Once you have opened the python file, you can run each code block using Shift + Enter
 
-# Files in the Folder
-email_sender.py
+# Repository Contents
+## email_sender.py
 
 A script that reads the top scorer data from snake_scores.csv and emails it to the user. It formats the top 5 scores, attaches the CSV file, and sends everything through Gmail.
 
@@ -33,6 +33,15 @@ Captures two images with the Raspberry Pi camera, converts them to grayscale, an
 picamera2_opencv_faceDetect.py
 
 Uses the Raspberry Pi camera and OpenCV’s Haar Cascade model to perform real-time face detection. Draws bounding boxes on detected faces in the live video feed.
+
+SenseHat_Main_Modified.py
+Shows letters and pictures on the LED screen. Collects temperature, pressure, and humidity. Saves data to a file and draws simple graphs.
+
+picamera2_opencv_videoFilters.py
+Uses the camera to show live video. Applies 5 fun filters (like edge detection) on the screen.
+
+snake_game.py
+Play Snake! Use the joystick to move, eat food to grow, and see your score on the LED display. Scores are saved automatically.
  
 
 
